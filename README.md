@@ -1,8 +1,8 @@
 <br />
-<div align="center"><img src="public/logo.png" height="128" alt="PokéPWA logo" /></div>
+<div align="center"><img src="public/logo.png" height="128" alt="" /></div>
 <br />
 
-**PokéPWA** is an educational project featuring a Pokédex Progressive Web App (PWA).
+**PokéPWA** is a Pokédex Progressive Web App (PWA) as <u>a personal study project to practice modern front-end development</u>.
 It leverages [**Angular**](https://angular.dev/) for a reactive UI, [**W3.CSS**](https://www.w3schools.com/w3css/) for lightweight styling, and [**Pokenode-ts**](https://pokenode-ts.vercel.app/) for seamless [**PokeAPI**](https://pokeapi.co/) integration.
 
 ## 🐸 For Pokémon Trainers
@@ -18,36 +18,36 @@ It offers comprehensive data on over 1,000 species, featuring:
 
 <div align="center"><img src="pokemon-card.png" alt="Pokémon card" /></div>
 
-## 👨‍💻 For Development Students
+## 👨‍💻 For Developers
 
-If you wish to run or study the source code of this application, follow the steps below.
+To run this app locally, follow the steps below.
 
-### 🛠️ Prerequisites
+### ⚙️️ System Requirements
 
 Ensure you have the following installed:
 
-- [**Git**](https://git-scm.com/install/)
-- [**Node.js**](https://nodejs.org/download/) (LTS version recommended)
-- [**Angular CLI**](https://angular.dev/tools/cli)
+- **[Git](https://git-scm.com/install/) 2+**
+- **[Node.js](https://nodejs.org/download/) 24+**
+- **[Angular CLI](https://angular.dev/tools/cli) 21+**
 
 ### 🚀️ Installation and Execution
 
 1. Clone the repository:
 
-```bash
+```sh
 git clone https://github.com/rodrigomologni/pokepwa.git
 cd pokepwa
 ```
 
 2. Install dependencies:
 
-```bash
+```sh
 npm install
 ```
 
 3. Start the development server:
 
-```bash
+```sh
 npm start
 ```
 
