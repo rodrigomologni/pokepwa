@@ -26,9 +26,9 @@ To run this app locally, follow the steps below.
 
 Ensure you have the following installed:
 
-- **[Git](https://git-scm.com/install/) 2+**
-- **[Node.js](https://nodejs.org/download/) 24+**
-- **[Angular CLI](https://angular.dev/tools/cli) 21+**
+- [**Git**](https://git-scm.com/install/) 2+
+- [**Node.js**](https://nodejs.org/download/) 24+
+- [**Angular CLI**](https://angular.dev/tools/cli) 21+
 
 ### 🚀️ Installation and Execution
 
