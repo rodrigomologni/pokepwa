@@ -3,7 +3,7 @@
 <br />
 
 **PokéPWA** is an educational project featuring a Pokédex Progressive Web App (PWA).
-It leverages [**Angular**](https://angular.dev/) for a reactive UI, [**W3.CSS**](https://www.w3schools.com/w3css/) for lightweight styling, and [**Pokenode-ts**](https://pokenode-ts.vercel.app/) for seamless [PokeAPI](https://pokeapi.co/) integration.
+It leverages [**Angular**](https://angular.dev/) for a reactive UI, [**W3.CSS**](https://www.w3schools.com/w3css/) for lightweight styling, and [**Pokenode-ts**](https://pokenode-ts.vercel.app/) for seamless [**PokeAPI**](https://pokeapi.co/) integration.
 
 ## 🐸 For Pokémon Trainers
 
