@@ -18,6 +18,7 @@
     "pokenode-ts": "^1.20.0"
   },
   "devDependencies": {
+    "angular-cli-ghpages": "^3.0.2",
     "vitest": "^4.0.8"
   }
 }
