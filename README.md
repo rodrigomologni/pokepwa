@@ -1,9 +1,5 @@
 <br />
-
-<div align="center">
-  <img src="public/logo.png" height="128" alt="PokéPWA logo" />
-</div>
-
+<div align="center"><img src="public/logo.png" height="128" alt="PokéPWA logo" /></div>
 <br />
 
 **PokéPWA** is an educational project featuring a Pokédex Progressive Web App (PWA).
@@ -19,9 +15,7 @@ This Pokédex offers comprehensive data on over 1,000 species, featuring:
 - **Evolutionary Lines:** current evolution stage and the name of its previous form.
 - **Lore & Stats:** classic favor text and base stats (HP, Attack, Defense etc.).
 
-<div align="center">
-  <img src="pokemon-card.png" width="640" alt="Pokémon card" />
-</div>
+<div align="center"><img src="pokemon-card.png" alt="Pokémon card" /></div>
 
 ## 👨‍💻 For Development Students
 
@@ -35,7 +29,7 @@ Ensure you have the following installed:
 - [**Node.js**](https://nodejs.org/download/) (LTS version recommended)
 - [**Angular CLI**](https://angular.dev/tools/cli)
 
-### 🏃‍♂️ Installation and Execution
+### 🚀️ Installation and Execution
 
 1. Clone the repository:
 
@@ -55,8 +49,7 @@ npm install
 ```bash
 npm start
 ```
+
 The application will be available at [http://localhost:4200/](http://localhost:4200/), as shown below.
 
-<div align="center">
-  <img src="screen-capture.png" width="640" alt="PokéPWA screen capture" />
-</div>
+<div align="center"><img src="screen-capture.png" alt="PokéPWA screen capture" /></div>
