@@ -1,0 +1,16 @@
+nav {
+  background-color: #ED5564;
+}
+
+header, footer {
+  background-color: #434A54;
+  color: #E6E9ED;
+}
+
+.icon-container {
+  color: #E6E9ED;
+}
+
+.icon-container:hover {
+  color: #FFCC03;
+}

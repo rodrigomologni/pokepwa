@@ -1,0 +1,73 @@
+@let pokemon = caughtPokemon();
+<div class="card w3-row w3-border w3-padding-16 w3-hover-shadow color-{{ pokemon.color }}">
+  <div class="w3-container w3-display-container w3-third w3-center">
+<!--    <img [src]="pokemon.imageUrl" [alt]="pokemon.name" style="width:220px;height:auto" />-->
+    <canvas #canvas width="220" height="220"></canvas>
+    <div class="w3-container w3-small w3-display-topleft">#{{ pokemon.id }}</div>
+  </div>
+  <div class="w3-container w3-third">
+    <div class="w3-xlarge">{{ pokemon.name }}</div>
+    <div class="w3-small">
+      @if (pokemon.evolvesFrom) {
+        @if (pokemon.evolutionStage == 1) {
+          1st Evolution (evolves from <b>{{ pokemon.evolvesFrom }}</b>)
+        } @else {
+          2nd Evolution (evolves from <b>{{ pokemon.evolvesFrom }}</b>)
+        }
+      } @else {
+        Unevolved
+      }
+    </div>
+    <div class="w3-margin-top">
+      @for (type of pokemon.types; track type) {
+        <span class="w3-tag type-{{ type }}">{{ type }}</span>&nbsp;
+      }
+    </div>
+    <div class="w3-margin-top">
+      {{ pokemon.flavorText }}
+      @let abilities = pokemon.abilities;
+      @let length = pokemon.abilities.length;
+      @if (length > 0) {
+        @if (length == 1) {
+          Its ability is <b>{{ abilities.at(0) }}</b>.
+        } @else {
+          Its abilities are
+          @for (ability of abilities; track ability; let index = $index; let count = $count) {
+            @if (index < count - 2) {
+              <b>{{ ability }}</b>,
+            } @else if (index < count - 1) {
+              <b>{{ ability }}</b>
+            } @else {
+              and <b>{{ ability }}</b>.
+            }
+          }
+        }
+      }
+    </div>
+  </div>
+  <div class="w3-container w3-third w3-small">
+    @for (item of [
+      ['HP', 'hp'],
+      ['Attack', 'attack'],
+      ['Defense', 'defense'],
+      ['Special Attack', 'special-attack'],
+      ['Special Defense', 'special-defense'],
+      ['Speed', 'speed']
+    ]; track item) {
+      @let n = item[0];
+      @let k = item[1];
+      <div>
+        <div>{{ n }}:</div>
+        <div>
+          @let v = pokemon.stats[k];
+          @let p = 100 * v / 255;
+          <div class="w3-border">
+            <div class="w3-right-align" [style.width.%]="p" [style.background-color]="'hsl(122,'+p+'%,49.2%)'">
+              {{ v }}&nbsp;
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

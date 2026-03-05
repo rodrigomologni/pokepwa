@@ -1,0 +1,24 @@
+<section class="w3-container w3-content w3-white">
+  @let pokemonGroup = caughtPokemonGroup();
+  @if (pokemonGroup.length > 0) {
+    <div class="w3-flex w3-margin-top" style="gap:16px;flex-flow:column">
+      @for (pokemon of pokemonGroup; track pokemon.id) {
+        <app-pokemon-card [caughtPokemon]=pokemon></app-pokemon-card>
+      }
+    </div>
+  }
+  <div class="w3-center w3-padding-16">
+    <div>
+      @if (catchingPokemon()) {
+        Catching Pokémon...
+      } @else if (allCaughtPokemon()) {
+        Good job, you caught all the Pokémon!
+      } @else if (pokemonFled()) {
+        Sorry, but we couldn't catch any Pokémon. They all fled!
+      } @else {
+        Scroll down to catch more Pokémon.
+      }
+    </div>
+  </div>
+  <div #scrollAnchor></div>
+</section>
