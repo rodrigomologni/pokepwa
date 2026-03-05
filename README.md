@@ -7,7 +7,8 @@ It leverages [**Angular**](https://angular.dev/) for a reactive UI, [**W3.CSS**]
 
 ## 🐸 For Pokémon Trainers
 
-This Pokédex offers comprehensive data on over 1,000 species, featuring:
+This Pokédex is available at https://rodrigomologni.github.io/pokepwa/.
+It offers comprehensive data on over 1,000 species, featuring:
 
 - **Visual Identity:** official artwork and a background color reflecting the Pokémon's body color.
 - **Core Data:** National Pokédex ID and official name.
