@@ -2,7 +2,7 @@
 <div align="center"><img src="public/logo.png" height="128" alt="" /></div>
 <br />
 
-**PokéPWA** is a Pokédex Progressive Web App (PWA) as <u>a personal study project to practice modern front-end development</u>.
+**PokéPWA** is a Pokédex Progressive Web App (PWA) as a personal study project to practice modern front-end development.
 It leverages [**Angular**](https://angular.dev/) for a reactive UI, [**W3.CSS**](https://www.w3schools.com/w3css/) for lightweight styling, and [**Pokenode-ts**](https://pokenode-ts.vercel.app/) for seamless [**PokeAPI**](https://pokeapi.co/) integration.
 
 ## 🐸 For Pokémon Trainers
@@ -22,7 +22,7 @@ It offers comprehensive data on over 1,000 species, featuring:
 
 To run this app locally, follow the steps below.
 
-### ⚙️️ System Requirements
+### ⚙️️ Requirements
 
 Ensure you have the following installed:
 
